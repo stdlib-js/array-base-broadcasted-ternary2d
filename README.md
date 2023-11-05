@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-ternary2d/tags). For example,
+
+```javascript
 import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@v0.1.0-deno/mod.js';
 ```
 
@@ -108,7 +113,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@deno/mod.js';
 import zeros2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros2d@deno/mod.js';
-import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@v0.1.0-deno/mod.js';
+import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@deno/mod.js';
 
 function add( x, y, z ) {
     return x + y + z;
