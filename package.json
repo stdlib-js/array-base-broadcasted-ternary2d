@@ -43,8 +43,9 @@
   "devDependencies": {
     "@stdlib/array-base-filled2d-by": "^0.1.0",
     "@stdlib/array-base-zeros2d": "^0.1.0",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
+    "@stdlib/math-base-ops-add3": "github:stdlib-js/math-base-ops-add3#main",
     "@stdlib/math-base-special-floor": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
