@@ -41,19 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-broadcasted-ternary2d
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-ternary2d/tags). For example,
-
-```javascript
-import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@v0.2.2-esm/index.mjs';
+var bternary2d = require( '@stdlib/array-base-broadcasted-ternary2d' );
 ```
 
 #### bternary2d( arrays, shapes, fcn )
@@ -61,8 +74,8 @@ import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadca
 Applies a ternary callback to elements in three [broadcasted][@stdlib/array/base/broadcast-array] nested input arrays and assigns results to elements in a two-dimensional nested output array.
 
 ```javascript
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
-import zeros2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros2d@esm/index.mjs';
+var add = require( '@stdlib/math-base-ops-add3' );
+var zeros2d = require( '@stdlib/array-base-zeros2d' );
 
 var x = [ [ 1.0, 2.0 ] ];
 var y = [ [ 3.0 ], [ 4.0 ] ];
@@ -106,17 +119,12 @@ The function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
-import zeros2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros2d@esm/index.mjs';
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
-import bternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary2d@esm/index.mjs';
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+var filled2dBy = require( '@stdlib/array-base-filled2d-by' );
+var zeros2d = require( '@stdlib/array-base-zeros2d' );
+var add = require( '@stdlib/math-base-ops-add3' );
+var bternary2d = require( '@stdlib/array-base-broadcasted-ternary2d' );
 
 var shapes = [
     [ 1, 3 ],
@@ -139,10 +147,6 @@ console.log( out );
 
 bternary2d( [ x, y, z, out ], shapes, add );
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -166,7 +170,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -196,8 +200,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-broadcasted-ternary2d.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-broadcasted-ternary2d
 
-[test-image]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-broadcasted-ternary2d/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-broadcasted-ternary2d?branch=main
@@ -229,9 +233,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-broadcasted-ternary2d/main/LICENSE
 
-[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array/tree/esm
+[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes/tree/esm
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
 </section>
 
