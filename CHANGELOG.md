@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-08-04)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by gururaj1512)_
+-   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`dc93a3a`](https://github.com/stdlib-js/stdlib/commit/dc93a3ac7351a59e0f61e6384312d96655cc2edc) - **docs:** fix return values _(by Athan Reines)_
 
 </details>
@@ -28,7 +28,7 @@
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   gururaj1512
+-   Gururaj Gurram
 
 </section>
 
