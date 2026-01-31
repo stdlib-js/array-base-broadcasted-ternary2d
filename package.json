@@ -47,7 +47,7 @@
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/ndarray-base-numel": "^0.2.2",
-    "@stdlib/number-float64-base-add3": "github:stdlib-js/number-float64-base-add3#main",
+    "@stdlib/number-float64-base-add3": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
@@ -85,7 +85,6 @@
     "transform",
     "broadcast"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
