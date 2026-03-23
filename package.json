@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-broadcast-array": "^0.2.2",
+    "@stdlib/array-base-broadcast-array": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
@@ -48,8 +48,8 @@
     "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/number-float64-base-add3": "^0.1.1",
-    "@stdlib/random-base-discrete-uniform": "^0.2.1",
-    "@stdlib/random-base-uniform": "^0.2.2",
+    "@stdlib/random-base-discrete-uniform": "^0.2.2",
+    "@stdlib/random-base-uniform": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
