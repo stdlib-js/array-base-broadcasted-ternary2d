@@ -50,7 +50,7 @@
     "@stdlib/number-float64-base-add3": "^0.1.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.2",
     "@stdlib/random-base-uniform": "^0.2.3",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
